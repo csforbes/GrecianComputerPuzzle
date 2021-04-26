@@ -52,6 +52,8 @@ namespace GrecianComputerPuzzle
             int puzzleCircumference = puzzle[0].GetLength(1);
             int puzzleDiameter = puzzle[puzzle.Length - 1].GetLength(0);
             int[,] alignedPuzzle = new int[puzzleDiameter, puzzleCircumference];
+            //for each place in alignedPuzzle, get the top available number at that level
+
             return alignedPuzzle;
         }
 
